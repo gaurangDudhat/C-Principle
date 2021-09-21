@@ -53,7 +53,7 @@ void LinkList::printAll()
 
 void LinkList::add(int num)
 {
-	node * newNode = new node;
+	node * newNode = new node();
 	newNode->number = num;
 
 
@@ -98,7 +98,7 @@ void LinkList::set(int num, int pos)
 
 void LinkList::insert(int num, int pos)
 {
-	node *newNode = new node;
+	node *newNode = new node();
 	newNode->number = num;
 
 	if(root == NULL)
