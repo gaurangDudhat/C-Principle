@@ -51,7 +51,7 @@ Class TaxClc
 Class taxCal2020 : public  Taxclc
 {
 
-        Int getTaxValue(pan)
+        int getTaxValue(pan)
         {
 
         }
@@ -60,7 +60,7 @@ Class taxCal2020 : public  Taxclc
 
 Class taxCal2021 : public  TaxClc
 {
-        Int getTaxValue(pan)
+        int getTaxValue(pan)
         {
 
         }
